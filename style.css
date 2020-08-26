@@ -1,0 +1,169 @@
+body{
+    margin:0px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    height:110px;
+    background-color: black;
+}
+section {
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(-60%, #f037a5),
+      color-stop(140%, #fae62d)
+    );
+  }
+footer{
+    height:400px;
+    background-color: black;
+}
+.container {
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+.nav-style a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-style a:hover{
+    color:#09953a;
+
+}
+span{
+    color: white;
+}
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+  }
+#title {
+    color: white;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: -0.04em;
+  }
+  section .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn-spotify {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1db954;
+    text-transform: uppercase;
+  }
+.free{
+    margin-top: -10px;
+    color: whitesmoke;
+    font-weight: initial;
+    text-shadow: 5px 5px #558ABB;
+    font-style: italic;
+}
+
+.btn-spotify:hover{
+    background-color: #09953a;
+}
+.btn-spotify:focus{
+    outline:none;
+}
+.column{
+    justify-content: flex-start;
+}
+.column h2{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 15px;
+    ;
+    
+}
+.column p{
+    color:ivory;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: -5px;
+
+} 
+.info a{
+    margin:10px;
+    text-decoration: none;
+    color:ivory;
+}
+.info a:hover{
+    color:#09953a;
+}
+
+.parent-container{
+    display: flex;
+    height:110px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.privacy-container{
+
+height: 100%;
+display: flex;
+margin: 0 auto;
+padding: 0 50px;
+max-width: 1170px;
+width:100%;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.privacy-container a{
+    margin:px;
+    text-decoration: none;
+    color:grey;
+    font-size: smaller;
+    
+}
+.parent-container p{
+    color: grey;
+    padding-right: 50px;
+}
+.footer-icons {
+    display: flex;
+    justify-content: space-around;
+    color:whitesmoke;
+    font-size: 40px;
+    margin-right:50px;
+}
+.fab{
+    margin-right:20px;
+}
